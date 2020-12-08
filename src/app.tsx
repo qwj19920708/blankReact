@@ -7,6 +7,8 @@ import Test1 from './store/container/test1'
 import Test2 from './view/test2'
 import Test3 from './view/test3'
 
+import Header from './page/header'
+
 import { syncHistoryWithStore } from 'react-router-redux';
 
 import { Route, Router, IndexRoute, hashHistory, Link } from 'react-router'
@@ -21,17 +23,16 @@ export default class App extends Component{
     render(){
         return (
             <div> 
-                <Provider store={store}>
+                {/* <Provider store={store}>
                     <Test1 name="test1"  />
-                </Provider>
+                </Provider> */}
+                <Header></Header>
                 <Router history={history}>
                     {/* <Header /> */}
                     {/* <Link to="/test1" >test1</Link> */}
                     <Route path="/" component={Test0}></Route>
-                    {/* <Route path="/test1" component={Test1}></Route> */}
                     <Route path="/test2" component={Test2}></Route>
                     <Route path="/test3" component={Test3}></Route>
-
                 </Router>
             </div>
         )
