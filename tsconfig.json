@@ -9,8 +9,13 @@
         "inlineSourceMap": true,
         "allowJs": true
     },
+    "exclude": [
+        "src/**/*.js", 
+        "src/**/*.jsx"
+    ],
     "include": [
-        "src"
+        "./src/**/*.ts", 
+        "./src/**/*.tsx"
     ]
 }
   
