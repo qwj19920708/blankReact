@@ -140,7 +140,16 @@ class Test0 extends React.Component<Props, State> {
                         {
                             name: '盐酸普罗尔片',
                             symbolSize: 80,
-                            category: 2,
+                            category: 3,
+                            label: {
+                                show: true
+                            }
+                        },
+
+                        {
+                            name: '支气管哮喘',
+                            symbolSize: 80,
+                            category: 1,
                             label: {
                                 show: true
                             }
@@ -170,6 +179,10 @@ class Test0 extends React.Component<Props, State> {
                         }, {
                             source: '盐酸普罗尔片',
                             target: '原发性高血压',
+                        }
+                        , {
+                            source: '盐酸普罗尔片',
+                            target: '支气管哮喘',
                         }
                     ],
                     categories: categories,
