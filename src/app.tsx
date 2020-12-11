@@ -11,7 +11,6 @@ import MedicalAtlas from '@view/medicalAtlas/medicalAtlas.tsx'
 const store = configureStore()
 const history = syncHistoryWithStore(hashHistory, store)
 const location = history.getCurrentLocation()
-// console.log(location.pathname)
 
 export default class App extends Component{
     render(){
