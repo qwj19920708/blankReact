@@ -1,4 +1,4 @@
-import Test1 from '../../view/test1'
+import Test1 from '../../page/view/test1'
 import * as actions from '../actions'
 import { StoreState } from '../types'
 import { connect, Dispatch } from 'react-redux'

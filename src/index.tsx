@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './app'
 import 'antd/dist/antd.css'
+import '@css/reset.scss' // 默认清楚样式
 
 ReactDOM.render(
     <App/>

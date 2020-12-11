@@ -10,6 +10,15 @@ module.exports = merge(common, {
     output: {
         filename: 'js/[name].[hash:8].bundle.js'
     },
+    resolve: {
+      alias: {
+        "@css": path.resolve("src/assets/css"),
+        "@img": path.resolve("src/assets/image"),
+        "@json": path.resolve("src/assets/json"),
+        "@common": path.resolve("src/page/common"),
+        "@view": path.resolve("src/page/view"),
+      }
+    },
     devServer: {
         contentBase: path.resolve(__dirname, '../dist'),
         open: true,

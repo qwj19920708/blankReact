@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "name" : "原发性高血压",
+            "symbolSize" : 100,
+            "category": 0,
+            "label": {
+                "show": true
+            }
+        }, 
+        {
+            "name": "肾血流量",
+            "symbolSize": 50,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        }, 
+        {
+            "name": "动态血压监测",
+            "symbolSize": 50,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        }, 
+        {
+            "name": "体循环系统",
+            "symbolSize": 50,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        }, 
+        {
+            "name": "呼吸困难",
+            "symbolSize": 50,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        }, 
+        {
+            "name": "疲乏",
+            "symbolSize": 50,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        }, 
+        {
+            "name": "头痛",
+            "symbolSize": 50,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        },
+
+        {
+            "name": "盐酸普罗尔片",
+            "symbolSize": 80,
+            "category": 3,
+            "label": {
+                "show": true
+            }
+        },
+
+        {
+            "name": "支气管哮喘",
+            "symbolSize": 80,
+            "category": 1,
+            "label": {
+                "show": true
+            }
+        }
+    ],
+    "link" : [
+        {
+            "source": "原发性高血压",
+            "target": "肾血流量"
+        }, 
+        {
+            "source": "原发性高血压",
+            "target": "动态血压监测"
+        }, {
+            "source": "原发性高血压",
+            "target": "体循环系统"
+
+        }, {
+            "source": "原发性高血压",
+            "target": "呼吸困难"
+        }, {
+            "source": "原发性高血压",
+            "target": "疲乏"
+        }, {
+            "source": "原发性高血压",
+            "target": "头痛"
+        }, {
+            "source": "盐酸普罗尔片",
+            "target": "原发性高血压"
+        }
+        , {
+            "source": "盐酸普罗尔片",
+            "target": "支气管哮喘"
+        }
+    ]
+}

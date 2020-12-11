@@ -1,0 +1,19 @@
+{
+    "list":[
+        {
+            "title" : "首页",
+            "key" : "home",
+            "url" : "/"
+        },
+        {
+            "title" : "医疗图谱",
+            "key" : "medicalAtlas",
+            "url" : "/medicalAtlas"
+        },
+        {
+            "title" : "编码转化",
+            "key" : "codeConversion",
+            "url" : "/codeConversion"
+        }
+    ] 
+}
